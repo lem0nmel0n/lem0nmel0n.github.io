@@ -4,7 +4,8 @@ body {
   font-family: "Lucida Console","Monaco" ,monospace;
 }
 
-cursor, .circle {
+cursor,
+.circle {
   position: absolute;
   width: 200px;
   height: 200px;
@@ -13,5 +14,9 @@ cursor, .circle {
 }
 
 .cursor#main {
-  z-index:10000;
+  z-index:10000; 
+  background:#000;
+  color:#fff;
+  display:flex;
+  
 }
