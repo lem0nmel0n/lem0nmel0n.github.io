@@ -14,9 +14,5 @@ cursor,
 }
 
 .cursor#main {
-  z-index:10000; 
-  background:#000;
-  color:#fff;
-  display:flex;
-  
+
 }
