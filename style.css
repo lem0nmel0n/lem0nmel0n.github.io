@@ -1,5 +1,17 @@
 body {
-  background-color: #fae6bb;
+  background-color: ##f5daa2;
   color: #856f44;
   font-family: "Lucida Console","Monaco" ,monospace;
+}
+
+cursor, .circle {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background: #e8b856;
+  
+}
+
+.cursor#main {
+  z-index:10000;
 }
