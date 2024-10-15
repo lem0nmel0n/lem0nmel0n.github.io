@@ -4,12 +4,5 @@ body {
   font-family: "Lucida Console","Monaco" ,"monospace";
 }
 
-cursor,
-.circle {
-  position: absolute;
-  width: 200px;
-  height: 200px;
-  background: #e8b856;
-  
-}
+
 
