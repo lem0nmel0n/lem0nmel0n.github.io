@@ -9,6 +9,8 @@ body {
   padding: 15px 32px;
   text-align: center;
   outline-style: solid;
+  outline-color: 9c6405;
+  outline-width: 2px;
   text-decoration: none;
   font-size: 16px;
   margin: 4px 2px;
