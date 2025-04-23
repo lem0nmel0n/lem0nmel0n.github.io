@@ -4,7 +4,7 @@ body {
   font-family: "Lucida Console","Monaco" , monospace;
 }
 
-.button {
+a:link {
   background-color:#faa614; 
   padding: 15px 32px;
   text-align: center;
@@ -19,10 +19,5 @@ body {
   color: #523200;
   font-family: "Lucida Console","Monaco" , monospace;
 }
-
-
-
-  
-
 
 
