@@ -10,12 +10,14 @@ body {
   text-align: center;
   border-style: solid;
   border-color: #9c6405;
-  border-width: 2px;
-  border-radius:2px;
+  border-width: 4px;
+  border-radius:4px;
   text-decoration: none;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  color: #523200;
+  font-family: "Lucida Console","Monaco" , monospace;
 }
 
 
