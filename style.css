@@ -4,7 +4,7 @@ body {
   font-family: "Lucida Console","Monaco" , monospace;
 }
 
-a:link {
+/*a:link {
   background-color:#faa614; 
   padding: 15px 32px;
   text-align: center;
@@ -17,7 +17,7 @@ a:link {
   cursor: pointer;
   color: #523200;
   font-family: "Lucida Console","Monaco" , monospace;
-}
+} */
 
 img {
   border: 1px solid;
