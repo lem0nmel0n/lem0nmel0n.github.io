@@ -29,5 +29,13 @@ body {
   border-radius:4px;
 }*/
 
+.tds {
+  transition: transform .2s;
+  margin: 0 auto;
+  position: relative;
+  width: 13.6%;
+  top: 0px;
+  left: -42%;
+}
 .tds:hover {
-  transform: scale(1.5)
+  transform: scale(1.08)
