@@ -42,7 +42,6 @@ body {
   width: 13.6%;
   top: 0px;
   left: -42%;
-  image-rendering: crisp-edges;
 }
 .tds:hover {
   transform: scale(1.08)
@@ -52,8 +51,10 @@ body {
   margin: 0 auto;
   position: relative;
   width: 13.6%;
-  top: 0px;
-  image-rendering: crisp-edges;
+  top: -304px;
+  left: -28%;
+
 }
 .extra:hover {
   transform: scale(1.08)
+
