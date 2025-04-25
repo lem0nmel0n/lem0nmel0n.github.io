@@ -46,7 +46,7 @@ body {
 }
 .tds:hover {
   transform: scale(1.08)
-
+}
 .extra {
   transition: transform .2s;
   margin: 0 auto;
