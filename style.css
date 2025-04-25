@@ -29,6 +29,12 @@ body {
   border-radius:4px;
 }*/
 
+.grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
+  gap: 1-px;
+}
+
 .tds {
   transition: transform .2s;
   margin: 0 auto;
@@ -39,4 +45,15 @@ body {
   image-rendering: crisp-edges;
 }
 .tds:hover {
+  transform: scale(1.08)
+
+.extra {
+  transition: transform .2s;
+  margin: 0 auto;
+  position: relative;
+  width: 13.6%;
+  top: 0px;
+  image-rendering: crisp-edges;
+}
+.extra:hover {
   transform: scale(1.08)
