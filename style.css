@@ -31,17 +31,15 @@ body {
 
 .grid{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr))
-  gap: 1-px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1px;
 }
 
 .tds {
   transition: transform .2s;
   margin: 0 auto;
   position: relative;
-  width: 13.6%;
-  top: 0px;
-  left: -42%;
 }
 .tds:hover {
   transform: scale(1.08)
@@ -50,9 +48,7 @@ body {
   transition: transform .2s;
   margin: 0 auto;
   position: relative;
-  width: 13.6%;
-  top: -304px;
-  left: -28%;
+
 
 }
 .extra:hover {
