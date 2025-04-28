@@ -5,7 +5,7 @@ body {
 }
 @font-face {
   font-family: pixel;
-  src: url(assets/pixel.ttf);
+  src: url(assets/pixel.otf);
 }
 
 /*a:link {
