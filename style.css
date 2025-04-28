@@ -1,7 +1,7 @@
 body {
   background-color: #121212;
   color: #ffb300;
-  font-family: pixel;
+  font-family: "Lucida Console","Monaco" , monospace;
 }
 @font-face {
   font-family: pixel;
