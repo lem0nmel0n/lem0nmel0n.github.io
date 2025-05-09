@@ -33,9 +33,10 @@ body {
   margin: 0 auto;
   position: relative;
 
-
 }
 .extra:hover {
   transform: scale(1.08)
 }
 
+.footer{ position: absolute; left: 10px;
+}
