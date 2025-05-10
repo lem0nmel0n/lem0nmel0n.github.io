@@ -5,7 +5,9 @@ ul{list-style-type: none;}
 body {background: #121212;
   color: #ffb300;
   font-family: pixel;
-  font-size:calc(15px + 0.5vw);}
+  font-size:calc(15px + 0.5vw);
+  font-display: swap;}
+
 
 @font-face {font-family: pixel; src: url(assets/pixel.otf);}
 
