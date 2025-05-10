@@ -1,6 +1,6 @@
 h1, h2{text-align: center;}
 
-ul{list-style-type: none;}
+ul{list-style-type: none; position: absolute; left: 0px}
 
 body {background: #121212;
   color: #ffb300;
@@ -29,16 +29,17 @@ body {background: #121212;
 
 
 li a {color: #ffb300;
-  padding: 8 16;
+  padding: 8px 10px;
+  height: 60px;
   text-decoration: none;
-  display: block;}
+  display: inline-block;}
 
 * {box-sizing: border-box;}
 .row {display: flex; flex-wrap: wrap;}
-.side {flex: 20%; background: #121212; padding: 0 20;}
-.main {flex: 80%; background: #121212; padding: 30 20;}
+.side {flex: 20%; background: #121212; padding: 0px 0px;}
+.main {flex: 80%; background: #121212; padding: 30px 30px;}
 .footer{ position: absolute; left: 10;}
 
 @media screen and (max-width: 700px) {
-  .row{   flex-direction: column;}
-}
+  .row{   flex-direction: column;}}
+
