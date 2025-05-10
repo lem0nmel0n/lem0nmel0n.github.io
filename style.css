@@ -1,13 +1,10 @@
-h1{text-align: center;}
+h1, h2{text-align: center;}
 
 body {
   background-color: #121212;
   color: #ffb300;
   font-family: pixel;
   font-size:calc(15px + 0.5vw);
-  position: absolute;
-  left: calc(15vw);
-
 }
 @font-face {
   font-family: pixel;
@@ -41,19 +38,39 @@ body {
 
 .footer{ position: absolute; left: 10px;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 150px;
-  position: absolute;
-  left: -200px;
-}
-
 
 li a {
   display: block;
   color: #ffb300;
   padding: 8px 16px;
   text-decoration: none;
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.side {
+  flex: 25%;
+  background-color: #121212;
+  padding: 0 50px;
+  
+
+}
+
+
+.main {
+  flex: 75%;
+  background-color: #121212;
+  padding: 0 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .row{   
+    flex-direction: column;
 }
