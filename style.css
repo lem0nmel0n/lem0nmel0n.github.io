@@ -1,5 +1,8 @@
 h1, h2{text-align: center;}
 
+ul{list-style-type: none;
+}
+
 body {
   background-color: #121212;
   color: #ffb300;
@@ -40,11 +43,12 @@ body {
 }
 
 li a {
-  display: block;
   color: #ffb300;
   padding: 8px 16px;
   text-decoration: none;
+  display: block;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -58,17 +62,13 @@ li a {
 .side {
   flex: 20%;
   background-color: #121212;
-  padding: 0 50px;
-  
-
+  padding: 0px 20px;
 }
-
 
 .main {
   flex: 80%;
   background-color: #121212;
-  padding: 0 20px;
-}
+  padding: 30 20px;}
 
 @media screen and (max-width: 700px) {
   .row{   
