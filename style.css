@@ -1,6 +1,6 @@
 h1, h2{text-align: center;}
 
-ul{list-style-type: none; position: relative; left: 0px}
+ul{list-style-type: none;}
 
 body {background: #121212;
   color: #ffb300;
@@ -29,8 +29,7 @@ body {background: #121212;
 
 
 li a {color: #ffb300;
-  padding: 8px 10px;
-  height: 50px;
+  padding: 10px 15px;
   text-decoration: none;
   display: inline-block;}
 
@@ -41,6 +40,7 @@ li a {color: #ffb300;
 .footer{ position: absolute; left: 10;}
 
 @media screen and (max-width: 700px) {
-  .row{   flex-direction: column;}
+  .row{flex-direction: column;}
+  li a{float: left;padding: 0px 15px;}
+  .main{padding: 0px 30px;}
 }
-
