@@ -44,3 +44,4 @@ li a {color: #ffb300;
   li a{float: left;padding: 0px 12px;}
   .main{padding: 0px 30px;}
 }
+.image{position: relative; top: 10;}
