@@ -6,7 +6,8 @@ body {background: #121212;
   color: #ffb300;
   font-family: pixel;
   font-size:calc(15px + 0.5vw);
-  font-display: swap;}
+  font-display: swap;
+  text-align:left;}
 
 
 @font-face {font-family: pixel; src: url(assets/pixel.otf);}
@@ -43,4 +44,5 @@ li a {color: #ffb300;
   .row{flex-direction: column;}
   li a{float: left;padding: 0px 12px;}
   .main{padding: 0px 30px;}
+  .side {text-align: center;}
 }
