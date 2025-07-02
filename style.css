@@ -3,7 +3,7 @@ h1, h2{text-align: center;}
 ul{list-style-type: none;}
 
 body {background: #121212;
-  color: #ffb300;
+  color: #ffc12f;
   font-family: pixel;
   font-size:calc(15px + 0.5vw);
   font-display: swap;
@@ -29,7 +29,7 @@ body {background: #121212;
 
 
 
-li a {color: #ffb300;
+li a {color: #ffc12f;
   padding: 10px 15px;
   text-decoration: none;
   display: inline-block;}
