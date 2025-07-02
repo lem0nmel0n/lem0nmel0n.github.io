@@ -17,15 +17,11 @@ body {background: #121212;
   grid-template-rows: 1fr 1fr;
   gap: 5px;}
 
-.tds {transition: transform .2s;
+.image {transition: transform .2s;
   margin: 0 auto;
   position: relative;}
-.tds:hover {transform: scale(1.08)}
+.image:hover {transform: scale(1.08)}
 
-.extra {transition: transform .2s;
-  margin: 0 auto;
-  position: relative;}
-.extra:hover {transform: scale(1.08)}
 
 
 
