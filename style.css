@@ -13,9 +13,9 @@ body {background: #121212;
 @font-face {font-family: pixel; src: url(assets/pixel.otf);}
 
 .grid{display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(200px, 1fr) );
+  grid-template-columns: repeat(auto-fill,minmax(280px, 1fr) );
   grid-template-rows: 1fr 1fr;
-  gap: 5px;}
+  gap: 10px;}
 
 .image {transition: transform .2s;
   margin: 0 auto;
@@ -32,11 +32,11 @@ li a {color: #ffc12f;
 
 * {box-sizing: border-box;}
 .row {display: flex; flex-wrap: wrap;}
-.side {flex: 20%; background: #121212; padding: 0px 0px;}
-.main {flex: 80%; background: #121212; padding: 30px 30px;}
+.side {flex: 15%; background: #121212; padding: 0px 0px;}
+.main {flex: 85%; background: #121212; padding: 30px 30px;}
 .footer{ position: absolute; left: 10;}
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   li a{float: left;padding: 0px 12px;}
   .main{padding: 0px 30px;}
   ul {padding: 0px 20px;display: flex;justify-content:center;}
