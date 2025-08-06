@@ -10,7 +10,7 @@ body {background: #121212;
   text-align:left;}
 
 
-@font-face {font-family: pixel; src: url(assets/pixelfont2.ttf);}
+@font-face {font-family: pixel; src: url(assets/pixel.ttf);}
 
 .grid{display: grid;
   grid-template-columns: repeat(auto-fill,minmax(280px, 1fr) );
