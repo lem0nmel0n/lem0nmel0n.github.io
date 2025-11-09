@@ -1,6 +1,12 @@
 h1, h2{text-align: center;}
 
-ul{list-style-type: none;}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+
 
 body {background: #121212;
   color: #ffc12f;
@@ -10,7 +16,7 @@ body {background: #121212;
   text-align:left;}
 
 
-@font-face {font-family: pixel; src: url(assets/pixel.otf);}
+@font-face {font-family: pixel; src: url(assets/PixelOperator.ttf);}
 
 .grid{display: grid;
   grid-template-columns: repeat(auto-fill,minmax(280px, 1fr) );
@@ -22,21 +28,25 @@ body {background: #121212;
   position: relative;}
 .image:hover {transform: scale(1.08)}
 
-
-
-
 li a {color: #ffc12f;
-  padding: 10px 15px;
+  padding: 0px 15px;
   text-decoration: none;
   display: inline-block;}
 
 * {box-sizing: border-box;}
-.row {display: flex; flex-wrap: wrap;}
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start; 
+}
+
 .side {flex: 15%; background: #121212; padding: 0px 0px;}
-.main {flex: 85%; background: #121212; padding: 30px 30px;}
-.footer{ position: absolute; left: 10;}
+.main {flex: 85%; background: #121212; padding: 0px 20px;}
+
+.footer{ position: absolute; left: 10px;}
 
 @media screen and (max-width: 900px) {
   li a{float: left;padding: 0px 12px;}
   .main{padding: 0px 30px;}
   ul {padding: 0px 20px;display: flex;justify-content:center;}
+}
