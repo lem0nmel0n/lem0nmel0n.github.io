@@ -1,21 +1,7 @@
-h1, h2{text-align: center;}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-
-body {background: #121212;
-  color: #ffc12f;
-  font-family: pixel;
-  font-size:calc(16px + 0.5vw);
-  font-display: swap;
-  text-align:left;}
-
-
-@font-face {font-family: pixel; src: url(assets/PixelOperator.ttf);}
+@font-face {
+  font-family: pixel; 
+  src: url(assets/PixelOperator.ttf);
+  font-display: swap;}
 
 .grid{display: grid;
   grid-template-columns: repeat(auto-fill,minmax(280px, 1fr) );
