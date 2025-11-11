@@ -10,7 +10,7 @@ ul {
 body {background: #121212;
   color: #ffc12f;
   font-family: pixel;
-  font-size:calc(16px + 0.5vw);
+  font-size:calc(20px + 0.5vw);
   font-display: swap;
   text-align:left;}
 
@@ -39,13 +39,13 @@ li a {color: #ffc12f;
   align-items: flex-start; 
 }
 
-.side {flex: 20%; background: #121212; padding: 0px 20px;}
-.main {flex: 80%; background: #121212; padding: 0px 20px;}
+.side {flex: 15%; background: #121212; padding: 0px 20px;}
+.main {flex: 85%; background: #121212; padding: 0px 20px;}
 
 .footer{ position: absolute; left: 10px;}
 
 @media screen and (max-width: 900px) {
   li a{float: left;padding: 0px 12px;}
   .main{padding: 0px 30px;}
-  ul {padding: 0px 20px;display: flex;justify-content:center;}
+  ul {padding: 0px 20px;display: flex; justify-content:center;}
 }
