@@ -18,6 +18,8 @@ li a {color: #ffc12f;
   text-decoration: none;
   display: inline-block;}
 
+.side ul li{margin-bottom: 1em;}
+
 * {box-sizing: border-box;}
 .row {
   display: flex;
