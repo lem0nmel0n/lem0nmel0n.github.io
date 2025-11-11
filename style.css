@@ -28,6 +28,8 @@ li a {color: #ffc12f;
 .side {flex: 20%; background: #121212; padding: 0px 20px;}
 .main {flex: 80%; background: #121212; padding: 0px 20px;}
 
+.main p{margin: 1em 0;}
+
 .footer{ position: absolute; left: 10px;}
 
 @media screen and (max-width: 900px) {
