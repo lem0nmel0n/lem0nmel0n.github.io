@@ -47,6 +47,7 @@ li a {color: #ffc12f;
 @media screen and (max-width: 900px) {
   li a{float: left;padding: 0px 12px;}
   .main{padding: 0px 30px;}
+  .row{flex-wrap: column;}
   .side{text-align:center; width: 100%;}
   ul {padding: 0px 20px;display: flex; justify-content:center;}
 }
