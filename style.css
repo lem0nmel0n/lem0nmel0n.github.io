@@ -27,7 +27,7 @@ li a {color: #ffc12f;
   align-items: flex-start; 
 }
 
-.side {flex: 20%; background: #121212; padding: 0px 20px;}
+.side {flex: 20%; background: #121212; padding: 0px 20px; margin: 1em;}
 .main {flex: 80%; background: #121212; padding: 0px 20px;}
 
 .main p{margin: 1em 0;}
