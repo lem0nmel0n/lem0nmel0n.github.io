@@ -1,28 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
- <link rel="stylesheet" href="style.css">
- <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
- <title>404 kebab not found</title>
- <meta name="author" content="lem0nmel0n">
-</head> 
-  
-<style>
- h1, h2{text-align: center;}
- body {background: #121212;
-  color: #ffc12f;
-  font-family: pixel;
-  font-size:calc(16px + 0.5vw);
-  text-align:left;
- }
- a{
-  text-decoration: none;
-  display: inline-block;
-  color: #ffc12f;
- }
-</style>
+<html lang="en"><head>
+  <title>404 kebab not found</title>
 
-<body><header>  
-<h1>DUDE WHAT THIS ISNT EVEN A PAGE </h1>
-<h2><a href="lem0nmel0n.github.io">AN ACTUALLY VALID LINK</a></h2>
-</header>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.png">
+  <meta name="author" content="lem0nmel0n">
+
+  <style>
+    body {
+      background: #121212;
+      color: #ffc12f;
+      font-family: pixel;
+      font-size: calc(16px + 0.5vw);
+      text-align: left;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    a {
+      display: inline-block;
+      color: #ffc12f;
+    }
+
+    /* Spinning text */
+    .spin {
+      display: inline-block;
+      animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+
+    header {
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>NOTHING TO SEE HERE</h1>
+    <h2>
+      go back this isn't even a page. seriously. <br>
+      you're not allowed to be here <a href="https://lem0nmel0n.github.io">go home</a>
+    </h2>
+  </header>
+  <h1 class="spin">Wheeeeee</h1>
+
+
+</body></html>
